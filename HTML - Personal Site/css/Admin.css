@@ -1,0 +1,37 @@
+body{
+    background-color:  red;
+}
+a{
+    text-decoration: none;
+  }
+li{
+    list-style-type: none;
+}
+.btn{
+      margin: 5px auto;
+      text-align: right;
+      width: 150px;
+  }
+  .navbar{
+   background-color: #fe4646;
+   margin: 0px;
+  
+  }
+  .navbar-brand{
+    font-family: 'Bangers', cursive;
+    font-size: 5rem;
+  }
+  #DeadLift{
+    font-size: 24px;
+    color:black;
+  
+  }
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+  
+  }

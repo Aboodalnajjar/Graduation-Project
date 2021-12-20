@@ -1,0 +1,270 @@
+*{
+  background-color: unset;
+}
+body{
+  background-color: #2b2d42;
+  font-family: 'Montserrat';
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Open Sans', sans-serif !important ;
+
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+
+p{
+  color: #edf2f4;
+}
+
+/*        HEADINGS      */
+.big-heading{
+  font-size:2.5rem;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+#title{
+  background-color: #2b2d42 ;
+  color: #edf2f4   ;
+}
+.container-fluid{
+  padding: 2% 15% 6%;
+
+}
+
+
+/* navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem ;
+
+}
+.navbar-brand{
+  font-family: 'Bangers', cursive;
+  font-size: 5rem;
+}
+#DeadLift{
+  color:white;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 5% 7% 0;
+}
+
+/* Title image */
+.title-img{
+  height: 23rem;
+  width: 23rem;
+
+}
+
+
+/* features Section */
+
+#features{
+  padding:7% 15%;
+  background-color: #B2B1B9   ;
+  position: relative;
+}
+.features1{
+  background-color: #B2B1B9   ;
+  text-align: center;
+  color: #073b4c      ;
+  padding: 5%;
+}
+.icon{
+  color: #f32626   ;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #2b2d42   ;
+}
+
+
+/* testimonial Section */
+
+
+#testimonials{
+ text-align: center;
+ background-color: #2b2d42   ;
+ color: #edf2f4;
+}
+
+.dogimg{
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #2b2d42   ;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  height: 20%;
+  margin: 20px 20px 20px;
+}
+.carousel-item{
+  padding:  7% 15%;
+
+}
+/*******************/
+.panel-title{
+  padding: 15px;
+  margin: 15px;
+  font-size: 1.7rem;
+}
+.FAQ-Address{
+  text-align: center;
+  color: #2b2d42;
+  font-size: 2.3rem;
+  padding-top: 7px;
+  font-family: 'Source Code Pro', monospace;
+
+}
+.FAQ{
+  color: #f32626;
+}
+#FAQ-Container{
+  background-color: #B2B1B9;
+
+}
+.last-answer{
+
+  margin-bottom: 20px;
+}
+
+hr{
+  background-color: #fff;
+  height: 2px;
+  max-width: 30%;
+}
+
+/******Social Media****/
+
+/* Footer Section Styling */
+#footer-section{
+  padding: 2%;
+  text-align: center;
+  background-color: #2b2d42;
+}
+
+.social-media-icons{
+  padding: 1% 1%;
+}
+
+#footer-section i{
+  color: #ffff;
+  bottom: 0;
+  transition: bottom, color, background-color, 0.5s;
+}
+
+#footer-section i:hover{
+  color:#f32626;
+  position: relative;
+  bottom:5px;
+  border: 1px solid #f4f4f4;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+
+
+
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #b3ccff;
+  margin: auto;
+  padding: 20px 50px;
+  border: 1px solid #888;
+  width: max-content;
+  height: max-content;
+  text-align: left;
+
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  position: absolute;
+  right: 35px;
+  font-size: 34px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buy-label{
+  color: #000;
+  width: max-content;
+  padding: 5px;
+  border-radius:9px ;
+}
+.buy-input{
+  background-color: white;
+  color: #000;
+  width: max-content;
+  padding: 5px;
+  border-radius:9px ;
+  outline: 0px;
+}
+.buy-input:active{
+  text-decoration: none;
+}
+.login-pic{
+  width: 8rem;
+  height: 6rem;
+  position: relative;
+  top: -8px;
+  left: 88px;
+  border-radius: 10px;
+}
+.login-label{
+  margin: 10px auto;
+}
+.login-form{
+  outline:none;
+  border-radius:15px;
+  border:2px solid grey;
+  width: 18rem;
+  margin: 5px auto;
+  padding: 10px;
+  font-size:18px;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+.forget{
+  font-size: 12px;
+  line-height: 2;
+}
+.login-form :active{
+  border: 2px  solid black;
+}

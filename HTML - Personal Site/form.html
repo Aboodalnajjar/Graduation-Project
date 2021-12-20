@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FurMove</title>
+    </head>
+    <!-- ################### CSS StyleSheets ################### -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="icon" href="/images/logo-ic.ico" type="image/x-icon" />
+
+    <!-- ################### Bootstrap Scripts ################### -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/f23353eb05.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet"
+    />
+
+    <body>
+        <div class="container-fluid">
+            <!-- ################### Nav Bar ################### -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navig">
+                <a class="navbar-brand" href="/html/index.html">
+                    <img src="css/images/3.png" alt="logo" class="logo"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="Prototype2.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form id="sign-up-form" action="Prototype2.html" method="GET" autocomplete="off">
+                    <h1 class="sign-up-header">Create Account</h1>
+                    <br>
+                    <input type="hidden" name="wow" value="false" id="wow">
+                    <input class="reg-input" type="text" placeholder="First Name" id="first-name" />
+
+                    <input class="reg-input" type="text" placeholder="Last Name" id="last-name" />
+
+                    <input class="reg-input" type="text" placeholder="Email address" id="email-address" />
+                    
+                    <input
+                        class="reg-input"
+                        type="tel"
+                        placeholder="Phone number"
+                        id="phone-number"
+                        required
+                    />
+
+                    <input class="reg-input" type="password" placeholder="Password" id="password" />
+                    <p class="error-message"></p>
+
+                    <br />
+                    <button id="sign-up-button">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container" id="lalo">
+                <form method="GET"  action="/html/posts.html" autocomplete="off">
+                    <h1>Sign in</h1>
+                    <br />
+                    <input class="login-input" type="text" placeholder="First Name"/>
+                    <input class="login-input" type="text" placeholder="Last Name"/>
+                    <select class = "city" required  onfocus='size=1;' onblur='size=1;' onchange='size=1;'>
+                        <option value="NULL" selected>Choose Your City</option>
+                        <option value="AMM">Ma'an</option>
+                        <option value="MAF">Madaba</option>
+                        <option value="ZAR">Zarqa</option>
+                        <option value="IRB">Amman</option>
+                        <option value="IRB">al-Mafraq</option>
+                        <option value="IRB">al-Karak</option>
+                        <option value="IRB">Aqaba</option>
+                        <option value="IRB">at-Tafila</option>
+                        <option value="IRB">Zarqa</option>
+                        <option value="IRB">as-Salt</option>
+                        <option value="IRB">Irbid</option>
+                        <option value="IRB">ar-Ramtha</option>
+                       </select>
+                    <input class="login-input" type="email" placeholder="car number" />
+                    <input class="login-input" type="email" placeholder="car capacity" />
+                    <input class="login-input" type="email" placeholder="car manufactured" />
+                    <input class="login-input" type="email" placeholder="Email"/>
+                    <input class="login-input" type="password" placeholder="Password" />
+
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Login in to view the latest offers</p>
+                        <button class="ghost" id="signIn"><strong>Sign In</strong></button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Greetings</h1>
+                        <p>Welcome to FurMove</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="JScript/register.js" defer></script>
+    </body>
+</html>

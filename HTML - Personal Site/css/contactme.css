@@ -1,0 +1,25 @@
+
+.red{
+    color: red  !important;
+}
+label{
+    font-size: bold;
+}
+.customerBtn{
+    background:none;
+color: whitesmoke;
+border-radius: 0;
+padding: 5px;
+border-bottom: 2px solid red;
+z-index: 2;
+margin-left: 0;
+width: 100%;
+border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+}
+#title{
+    font-family: 'Open Sans', sans-serif !important ;
+}
+.form-margin{
+    margin-top: 35px;
+}

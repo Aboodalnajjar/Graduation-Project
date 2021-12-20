@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #2b2d42;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+h1,h3, .fa{
+  color:white;
+}
+
+ul {
+  text-align: center;
+  display: hidden;
+}
+
+.shown {
+display: table-cell;
+}
+.show{
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+video{
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.h3 {
+  color: #b32453;
+  text-align: center;
+  padding: 20px;
+  font-size: 2.75rem;
+}
+
+.input-all {
+  display: inline-block;
+  margin: 15px;
+}
+#Recount{
+  background: #fe4646;
+  margin: 5px;
+  border-radius: 7px;
+  text-align: center;
+  border: none;
+}
+.input{
+
+  width: max-content;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: max-content;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+option{
+  color: black;
+  background-color: white;
+  z-index: 2;
+}
+.city{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  color: black;
+  outline: none;
+  border: none;
+  background-color: white;
+  width: max-content;
+  border-radius: 10px;
+  height: max-content;
+  font-size: 18px;
+}
+.input-field:focus{
+  outline: none;
+  border: none;
+}
+
+.btn:hover{
+  background-color:#fe4646;
+
+}
+.selected{
+  background-color:#fe4646;
+}
+.selected2{
+  background-color:#fe4646;
+}
+.menu-btn{
+  width: 14rem;
+  margin: 15px
+}
+.service-btn{
+  width: 11rem;
+}
+
+.img {
+  float: right;
+  width: 125px;
+}
+
+.service-btn:target{
+background-color: #fe4646;
+}
+.main-btn:target{
+  width: 14rem;
+  margin: 15px;
+  background-color: red;
+}
+.btn {
+  display: inline-block;
+  margin: 20px 2px;
+  /* width: 100%; */
+}
+
+.login-form{
+  border-radius:15px;
+  border:2px solid lightgrey;
+  width: 18rem;
+  margin: 5px auto;
+  padding: 10px;
+  font-size:18px;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+.close {
+  color: black;
+  position: absolute;
+  right: 35px;
+  font-size: 34px;
+  font-weight: bold;
+  margin: auto;
+}
+
