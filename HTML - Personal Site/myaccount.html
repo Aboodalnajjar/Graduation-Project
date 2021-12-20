@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous"></link>
+        <link rel="stylesheet" href="css/myaccount.css">
+
+
+  <!-- ################### Bootstrap Scripts ################### -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/f23353eb05.js" crossorigin="anonymous"></script>
+    <!-- ######################################################################################## -->
+  <script src="https://kit.fontawesome.com/7f0ea7a69e.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="favicon-96x96.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Titan+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <title>FurMove</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a id="DeadLift"class="navbar-brand title" href="#">FurMove</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class=" navbar-nav ml-auto">
+            <li>
+              <a href="Prototype2.html" class="nav-link">Home</a>
+            </li>
+          
+            <li class="nav-item">
+              <a href="Products.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="contantme.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="myaccount.html" class="nav-link">My Account</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2 ">
+        <ul>
+          <div class="btn-group-lg mr-100">
+          <li><button type="button" id="" value="Account Info" class="btn btn-secondary menu-btn">Account Info</button></li>
+          <li><button type="button" id="" value="My Orders" class="btn btn-secondary menu-btn">My Orders</button></li>
+        </div>
+
+       </ul>
+      </div>
+      <div class="col-lg-8 ">
+        <br><br><br>
+        <div class="user-info shown" id="user-form">
+          <form>
+            <div class="">
+              <label class="">Email</label>
+                <input type="text" class="form-control" name="username" autocomplete="username" readonly value="">
+              </div>
+
+
+            <div class="">
+              <label id="lblFirstName" class="">First Name</label>
+                <input type="text" class="form-control" name="firstName" value="" readonly>
+              </div>
+              <div class="">
+                  <label>Last Name</label>
+                    <input type="text" class="form-control" name="lastName" value="" readonly>
+                  </div>
+                  <div class="">
+                    <label>password</label>
+                      <input type="password" class="form-control" name="password" value="" readonly>
+                    </div>
+                  </div>
+             
+              
+          </form>
+        
+        <div class="order-info hidden " id="order-form">
+          <form>
+            <div>
+            <label for="" class="buy-label">Driver Name:</label>
+            <label class="order-form-input">asdasdasd</label><br>
+          
+              <label for="" class="buy-label">Driver number:</label>
+            <label class="order-form-input" ></label><br>
+          
+             <label for="text" class="buy-label">Vehicle type:</label>
+            <label class="order-form-input"  ></label><br>
+          </div>
+            <div>
+              <label for="" class="buy-label">Vehicle license:</label>
+            <label  class="order-form-input" ></label><br>
+          
+              <label for="" class="buy-label">Cost:</label>
+            <label type="text" name="" id=""class="order-form-input">asd</label><br>
+
+          </div>
+          </form>
+        </div>
+
+      </div>
+      </div>
+    </div>
+    </div>
+    </nav>
+
+<script src="JScript/myaccount.js"></script>
+</body>
