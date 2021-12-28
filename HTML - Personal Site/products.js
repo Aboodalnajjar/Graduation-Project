@@ -38,8 +38,8 @@ function buttonAnimation(event) {
   switchayah(event.target.value);
 }
 function pricevalue(key){
-  var a = document.getElementsByClassName("service-btn")
-
+  var a = document.getElementsByClassName("service-btn");
+  Distance();
   switch(key.target.value){
     case "1":
       price = 25;
@@ -64,6 +64,7 @@ function pricevalue(key){
 }
 
 }
+
 
 function switchayah(key) {
 
