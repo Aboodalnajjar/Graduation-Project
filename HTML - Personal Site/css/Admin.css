@@ -1,37 +1,47 @@
-body{
-    background-color:  red;
-}
 a{
     text-decoration: none;
-  }
+}
 li{
     list-style-type: none;
+    font-size: 14px;
 }
 .btn{
       margin: 5px auto;
       text-align: right;
-      width: 150px;
-  }
-  .navbar{
-   background-color: #fe4646;
+    
+}
+.navbar{
    margin: 0px;
-  
-  }
-  .navbar-brand{
+
+}
+.navbar-brand{
     font-family: 'Bangers', cursive;
     font-size: 5rem;
-  }
+}
+.container-fluid{
+  height: 50%;
+}
   #DeadLift{
     font-size: 24px;
-    color:black;
-  
-  }
-  
+    color:rgb(245, 241, 241);
+
+}
+.hidden{
+ display: none;
+}
+.shown{
+ display: inline-table;
+}
+.navbar-nav{
+text-align: right;
+margin-left: auto;
+}
+
   .nav-item{
     padding: 0 18px;
-  }
+}
   .nav-link{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-family: 'Montserrat';
-  
-  }
+
+}
