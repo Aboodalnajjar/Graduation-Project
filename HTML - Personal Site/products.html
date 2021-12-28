@@ -111,11 +111,13 @@
             <Label>Select your Moving Size</Label>
           <ul>
               <div class="btn-group-toggle mr-2">
+                <form action="">
                 <button class="btn btn-secondary service-btn room none" value="1">1 room</button>
                 <button class="btn btn-secondary service-btn room none" value="2">2 rooms</button>
                 <button class="btn btn-secondary service-btn room none" value="3">3 rooms</button>
                 <button class="btn btn-secondary service-btn room none" value="4">4 rooms</button>
                 <button class="btn btn-secondary service-btn room none" value="5">5 rooms</button>
+              </form>
                </div>
 
           </ul>
@@ -130,11 +132,13 @@
             <Label>Select your load weight</Label>
             <ul>
               <div class="btn-group-toggle mr-2">
+                <form action="">
                   <button class="btn btn-secondary service-btn product" value="1">100kg</button>
                   <button class="btn btn-secondary service-btn product" value="2">200kg</button>
                   <button class="btn btn-secondary service-btn product" value="3">300kg</button>
                   <button class="btn btn-secondary service-btn product" value="4">400kg</button>
                   <button class="btn btn-secondary service-btn product" value="5">500kg</button>
+                </form>
                </div>
 
           </ul>
@@ -148,7 +152,6 @@
           <div id="tab-3" class="tab-content">
             <form autocomplete="off" id="form" class="none">
               <label>Moving from:</label><br>
-
               <div class="city">
                 <select class = "city" id="fromCity" required  onfocus='size=5;' onblur='size=1;' onchange='size=1;'>
                 <option value="NULL" selected disabled>Choose Your City</option>
@@ -250,18 +253,19 @@
                 <input type="date" class="input" id="start" required name="trip-start"
                 value="2021-11-01"
                 min="2021-11-01" max="2022-12-31">  </div>
+              
               <div class="form-action">
-                <button type="button" id="getprice" class="btn btn-danger slide1-btn">Get Price</button>
+                <button type="button" id="getprice" class="btn btn-danger slide1-btn" onclick="GETT()">Get Price</button>
               </div>
             </form>
           </div>
         </div>
         <!-- container -->
       </div>
-  <div id="priceModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-        <label for="" class="buy-label">Driver Name:</label>
+         <div id="priceModal" class="modal">
+         <div class="modal-content">
+        <span class="close">&times;</span>
+              <label for="" class="buy-label">Driver Name:</label>
         <input type="text" name="" value="" class="buy-input" readonly>
         <label for="" class="buy-label">Driver number:</label>
         <input type="tel" name="" id="" class="buy-input" readonly>
@@ -270,9 +274,8 @@
         <label for="" class="buy-label">Vehicle license:</label>
         <input type="text" name="" id="" class="buy-input" readonly>
         <label for="" class="buy-label">Cost:</label>
-        <input type="text" name="" id=""class="buy-input">
+        <input type="text" id="price"class="buy-input" readonly> 
         <button type="button" name="button" class="btn btn-sm btn-danger"> Accept </button>
-
     </div>
 
   </div>
