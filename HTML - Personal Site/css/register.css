@@ -356,9 +356,6 @@ option{
 	transform: translateX(20%);
 }
 
-
-
-
 option {
   color: black;
 }
@@ -367,17 +364,16 @@ option {
 	padding: 2%;
 	text-align: center;
   }
-  
+
   .social-media-icons{
 	padding: 1% 1%;
   }
-  
   #footer-section i{
 	color: #ffff;
 	bottom: 0;
 	transition: bottom, color, background-color, 0.5s;
   }
-  
+
   #footer-section i:hover{
 	color:#2D9F91;
 	position: relative;
