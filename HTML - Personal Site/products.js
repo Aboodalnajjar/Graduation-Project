@@ -149,7 +149,7 @@ var modal2 = document.getElementById("pricemodal");
 var btn2 = document.getElementById("Ok");
 
 // Get the <span> element that closes the modal
-var span2 = document.getElementsByClassName("close")[0];
+var span2 = document.getElementsByClassName("close")[1];
 
 // When the user clicks the button, open the modal
 btn2.onclick = function() {
@@ -158,7 +158,7 @@ btn2.onclick = function() {
 
 // When the user clicks on <span> (x), close the modal
 span2.onclick = function(){
-  modal.style.display = "none";
+  modal2.style.display = "none";
 };
 
 // When the user clicks anywhere outside of the modal, close it
