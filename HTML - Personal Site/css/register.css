@@ -127,7 +127,7 @@ select {
 
 input {
 	border: none;
-	padding: 10px 13px;
+	padding: 10px 12px;
     margin: 9px 0;
 	width: 100%;
 	border-radius: 5px;
@@ -173,7 +173,7 @@ option{
 	overflow: hidden;
 	width: 768px;
 	max-width: 100%;
-	min-height: 650px;
+	min-height: 768px;
 	display: block;
 }
 
