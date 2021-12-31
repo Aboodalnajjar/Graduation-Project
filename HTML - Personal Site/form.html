@@ -1,142 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <link
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FurMove</title>
+    </head>
+    <!-- ################### CSS StyleSheets ################### -->
+    <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous"></link>
-        <link rel="stylesheet" href="css/myaccount.css">
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="icon" href="/images/logo-ic.ico" type="image/x-icon" />
 
-
-  <!-- ################### Bootstrap Scripts ################### -->
+    <!-- ################### Bootstrap Scripts ################### -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+    ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/f23353eb05.js" crossorigin="anonymous"></script>
-    <!-- ######################################################################################## -->
-  <script src="https://kit.fontawesome.com/7f0ea7a69e.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet"
+    />
 
-  <link rel="icon" href="favicon-96x96.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Titan+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <title>FurMove</title>
-</head>
+    <body>
+        <div class="container-fluid">
+            <!-- ################### Nav Bar ################### -->
 
-<body>
-    <div class="container-fluid">
-
-      <nav class="navbar navbar-expand-lg  navbar-dark">
-        <a id="DeadLift"class="navbar-brand title" href="#">FurMove</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class=" navbar-nav ml-auto">
-            <li>
-              <a href="Prototype2.html" class="nav-link">Home</a>
-            </li>
-          
-            <li class="nav-item">
-              <a href="Products.html" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="contantme.html" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="myaccount.html" class="nav-link">My Account</a>
-            </li>
-          </ul>
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navig">
+                <a class="navbar-brand" href="/html/index.html">
+                    <img src="css/images/3.png" alt="logo" class="logo"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="Prototype2.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-      </nav>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-2 ">
-        <ul>
-          <div class="btn-group-lg mr-100">
-          <li><button type="button" id="" value="Account Info" class="btn btn-secondary menu-btn">Account Info</button></li>
-          <li><button type="button" id="" value="My Orders" class="btn btn-secondary menu-btn">My Orders</button></li>
-        </div>
-       </ul>
-      </div>
-      <div class="col-lg-8 ">
-        <br><br><br>
-        <div class="user-info shown" id="user-form">
-          <form>
-            <div class="">
-              <label class="">Email</label>
-                <input type="text" class="form-control" name="username" autocomplete="username" readonly value="">
-              </div>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form id="sign-up-form" action="Prototype2.html" method="GET" autocomplete="off">
+                    <h1 class="sign-up-header">Create Account</h1>
+                    <br>
+                    <input type="hidden" name="wow" value="false" id="wow">
+                    <input class="reg-input" type="text" placeholder="First Name" id="first-name" />
 
+                    <input class="reg-input" type="text" placeholder="Last Name" id="last-name" />
 
-            <div class="">
-              <label id="lblFirstName" class="">First Name</label>
-                <input type="text" class="form-control" name="firstName" value="" readonly>
-              </div>
-              <div class="">
-                  <label>Last Name</label>
-                    <input type="text" class="form-control" name="lastName" value="" readonly>
-                  </div>
-                  <div class="">
-                    <label>password</label>
-                      <input type="password" class="form-control" name="password" value="" readonly>
-                    </div>
-                  </div>
-             
-              
-          </form>
-        
-        <div class="order-info hidden " id="order-form">
-          <form>
-            <div>
-            <label for="" class="buy-label">Driver Name:</label>
-            <input type="text" class="form-control" name="lastName" value="" >
-          
-              <label for="" class="buy-label">Driver number:</label>
-              <input type="tel" class="form-control" name="lastName" value="" >
-          
-             <label for="text" class="buy-label">Vehicle type:</label>
-             <input type="text" class="form-control" name="lastName" value="" >
+                    <input class="reg-input" type="text" placeholder="Email address" id="email-address" />
+                    
+                    <input
+                        class="reg-input"
+                        type="tel"
+                        placeholder="Phone number"
+                        id="phone-number"
+                        required
+                    />
+
+                    <input class="reg-input" type="password" placeholder="Password" id="password" />
+                    <p class="error-message"></p>
+
+                    <br>
+                    <a href="User.html"><button id="sign-up-button">Sign Up</button></a>
+                </form>
             </div>
-            <div>
-              <label for="" class="buy-label">Vehicle license:</label>
-              <input type="tel" class="form-control" name="lastName" value="" >
-          
-              <label for="" class="buy-label">Cost:</label>
-              <input type="text" class="form-control" name="lastName" value="" >
+            <div class="form-container sign-in-container" id="lalo">
+                <form method="GET"  action="/html/posts.html" autocomplete="off">
+                    <h1>Sign in</h1>
+                    <br />
+                    <input class="login-input" type="text" placeholder="First Name"/>
+                    <input class="login-input" type="text" placeholder="Last Name"/>
+                    <select class = "city" required  onfocus='size=1;' onblur='size=1;' onchange='size=1;'>
+                        <option value="NULL" selected>Choose Your City</option>
+                        <option value="AMM">Ma'an</option>
+                        <option value="MAF">Madaba</option>
+                        <option value="ZAR">Zarqa</option>
+                        <option value="IRB">Amman</option>
+                        <option value="IRB">al-Mafraq</option>
+                        <option value="IRB">al-Karak</option>
+                        <option value="IRB">Aqaba</option>
+                        <option value="IRB">at-Tafila</option>
+                        <option value="IRB">Zarqa</option>
+                        <option value="IRB">as-Salt</option>
+                        <option value="IRB">Irbid</option>
+                        <option value="IRB">ar-Ramtha</option>
+                       </select>
+                    <input class="login-input" type="text" placeholder="car number" />
+                    <input class="login-input" type="text" placeholder="car capacity" />
+                    <input class="login-input" type="text" placeholder="car manufactured" />
+                    <input class="login-input" type="email" placeholder="Email"/>
+                    <input class="login-input" type="password" placeholder="Password" />
 
-          </div>
-          </form>
+                    <a href="Employee.html"> <button>Sign In</button></a>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>Login in to view the latest offers</p>
+                     <a href="Employee.html"> <button class="ghost" id="signIn"><strong>Sign In</strong></button></a>  
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Greetings</h1>
+                        <p>Welcome to FurMove</p>
+                      <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="btn btn-danger btn-lg">Log Out</button>
-      </div>
-      </div>
-    </div>
-    </div>
-    </nav>
 
-<script src="JScript/myaccount.js"></script>
-</body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="JScript/register.js" defer></script>
+    </body>
 </html>
