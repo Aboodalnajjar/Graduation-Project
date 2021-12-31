@@ -93,10 +93,12 @@
             </div>
             <div class="form-container sign-in-container" id="lalo">
                 <form method="GET"  action="/html/posts.html" autocomplete="off">
-                    <h1>Sign in</h1>
+                    <h1>Sign Up</h1>
                     <br />
-                    <input class="login-input" type="text" placeholder="First Name"/>
-                    <input class="login-input" type="text" placeholder="Last Name"/>
+                    <input class="login-input" type="text" placeholder="First Name" required/>
+                    <input class="login-input" type="text" placeholder="Last Name" required/>
+                    <input  class="login-input" type="tel" placeholder="Phone Number" required
+                    pattern="[0]{1}[7]{1}[7-9]{1}[0-9]{7}"/>
                     <select class = "city" required  onfocus='size=1;' onblur='size=1;' onchange='size=1;'>
                         <option value="NULL" selected>Choose Your City</option>
                         <option value="AMM">Ma'an</option>
@@ -112,21 +114,22 @@
                         <option value="IRB">Irbid</option>
                         <option value="IRB">ar-Ramtha</option>
                        </select>
-                    <input class="login-input" type="text" placeholder="car number" />
-                    <input class="login-input" type="text" placeholder="car capacity" />
-                    <input class="login-input" type="text" placeholder="car manufactured" />
-                    <input class="login-input" type="email" placeholder="Email"/>
-                    <input class="login-input" type="password" placeholder="Password" />
+                    <input class="login-input" type="text" placeholder="car number" required
+                    pattern="[0-4]{1}[0-9]{1}[0-9]{5}"/>
+                    <input class="login-input" type="text" placeholder="car capacity" required/>
+                    <input class="login-input" type="text" placeholder="car manufactured" required />
+                    <input class="login-input" type="email" placeholder="Email" required/>
+                    <input class="login-input" type="password" placeholder="Password" required/>
 
-                    <a href="Employee.html"> <button>Sign In</button></a>
+                    <a href="Employee.html"> <button>Sign Up</button></a>
                 </form>
             </div>
             <div class="overlay-container">
                 <div class="overlay">
                     <div class="overlay-panel overlay-left">
-                        <h1>Welcome Back!</h1>
-                        <p>Login in to view the latest offers</p>
-                     <a href="Employee.html"> <button class="ghost" id="signIn"><strong>Sign In</strong></button></a>  
+                        <h1>Wanna Join Our Team ?</h1>
+                        <p>You’re joining the best team in the world! We all look forward to working with you!</p>
+                     <button class="ghost" id="signIn"><strong>Sign Up</strong></button>
                     </div>
                     <div class="overlay-panel overlay-right">
                         <h1>Greetings</h1>
